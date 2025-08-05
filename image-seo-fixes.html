@@ -1,0 +1,105 @@
+<!-- IMAGE SEO FIXES FOR CLEMENT ASSOCIATES WEBSITE -->
+<!-- Replace your existing image tags with these optimized versions -->
+
+<!-- LOGO IMAGES - Current: alt="" (EMPTY - BAD FOR SEO) -->
+<!-- BEFORE: -->
+<!-- <img src="assets/images/white-Clement-Associates-New-Logo.png" alt=""> -->
+
+<!-- AFTER (OPTIMIZED): -->
+<img src="assets/images/white-Clement-Associates-New-Logo.png" 
+     alt="Clement Associates - Procurement Consultancy and Representation Logo" 
+     width="200" 
+     height="80" 
+     loading="eager">
+
+<img src="assets/images/white-Clement-Associates-New-LogoMobile.png" 
+     alt="Clement Associates Mobile Logo" 
+     width="150" 
+     height="60" 
+     loading="eager">
+
+<!-- SCROLL DOWN ICON - Current: alt="" (EMPTY - BAD FOR SEO) -->
+<!-- BEFORE: -->
+<!-- <img data-style="bounce" src="assets/images/scroll_down_ico.png" alt=""> -->
+
+<!-- AFTER (OPTIMIZED): -->
+<img data-style="bounce" 
+     src="assets/images/scroll_down_ico.png" 
+     alt="Scroll down to view more content" 
+     width="30" 
+     height="40" 
+     loading="lazy">
+
+<!-- BANNER/HERO IMAGES -->
+<!-- Add these as proper background images or img tags with alt text -->
+
+<!-- If using as img tag: -->
+<img src="assets/images/banner_2.jpg" 
+     alt="Clement Associates procurement consultancy team at work" 
+     width="1920" 
+     height="1080" 
+     loading="eager">
+
+<!-- VIDEO ELEMENT - Add poster image and description -->
+<!-- BEFORE: -->
+<!-- <video class="videoplay" preload="none" loop="" muted="" data-autoplay="" autoplay="" playsinline="" webkitplaysinline="" src="assets/images/SBV-331718640-HDMOV.mov"> -->
+
+<!-- AFTER (OPTIMIZED): -->
+<video class="videoplay" 
+       preload="none" 
+       loop 
+       muted 
+       autoplay 
+       playsinline 
+       webkitplaysinline 
+       src="assets/images/SBV-331718640-HDMOV.mov"
+       poster="assets/images/video-poster.jpg"
+       aria-label="Clement Associates procurement consultancy services overview video">
+    <source src="assets/images/SBV-331718640-HDMOV.mov" type="video/mp4">
+    <p>Your browser doesn't support HTML5 video. <a href="assets/images/SBV-331718640-HDMOV.mov">Download the video</a> instead.</p>
+</video>
+
+<!-- ADDITIONAL OPTIMIZATION RECOMMENDATIONS -->
+
+<!-- 1. FAVICON FIX -->
+<!-- BEFORE: type="image/gif" (INCORRECT) -->
+<!-- <link rel="icon" href="./assets/images/favicon.png" type="image/gif" sizes="16x16"> -->
+
+<!-- AFTER (CORRECTED): -->
+<link rel="icon" href="./assets/images/favicon.png" type="image/png" sizes="16x16">
+<link rel="apple-touch-icon" href="./assets/images/apple-touch-icon.png" sizes="180x180">
+
+<!-- 2. ADD MISSING IMAGES FOR SOCIAL MEDIA -->
+<!-- Create these images and add to your assets/images/ folder: -->
+<!-- - og-image.jpg (1200x630px) - For Facebook/LinkedIn sharing -->
+<!-- - twitter-card.jpg (1200x675px) - For Twitter sharing -->
+<!-- - video-poster.jpg - Static image from your video for poster -->
+
+<!-- 3. IMAGE LAZY LOADING IMPLEMENTATION -->
+<!-- Add loading="lazy" to all images below the fold -->
+<!-- Add loading="eager" to above-the-fold images (logo, hero image) -->
+
+<!-- 4. RESPONSIVE IMAGES (Future Enhancement) -->
+<!-- Consider using srcset for different screen sizes: -->
+<!--
+<img src="assets/images/banner_2.jpg" 
+     srcset="assets/images/banner_2-320.jpg 320w,
+             assets/images/banner_2-640.jpg 640w,
+             assets/images/banner_2-1024.jpg 1024w,
+             assets/images/banner_2.jpg 1920w"
+     sizes="(max-width: 320px) 280px,
+            (max-width: 640px) 600px,
+            (max-width: 1024px) 980px,
+            1920px"
+     alt="Clement Associates procurement consultancy services"
+     loading="lazy">
+-->
+
+<!-- QUICK IMPLEMENTATION CHECKLIST -->
+<!-- □ Replace all empty alt="" with descriptive alt text -->
+<!-- □ Add width and height attributes to prevent layout shift -->
+<!-- □ Use loading="lazy" for below-fold images -->
+<!-- □ Use loading="eager" for critical above-fold images -->
+<!-- □ Fix favicon type from image/gif to image/png -->
+<!-- □ Create og-image.jpg and twitter-card.jpg for social sharing -->
+<!-- □ Add video poster image for better loading experience -->

@@ -6,68 +6,42 @@
 
   <!-- Homepage -->
   <url>
-    <loc>https://clement-associates.com/</loc>
+    <loc>https://www.clement-associates.com/</loc>
     <lastmod>2025-08-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
-  <!-- About Page -->
+  <!-- Consultancy Page -->
   <url>
-    <loc>https://clement-associates.com/about</loc>
-    <lastmod>2025-08-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Services Page -->
-  <url>
-    <loc>https://clement-associates.com/services</loc>
+    <loc>https://www.clement-associates.com/consultancy.html</loc>
     <lastmod>2025-08-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
-  <!-- Contact Page -->
+  <!-- Services Page -->
   <url>
-    <loc>https://clement-associates.com/contact</loc>
+    <loc>https://www.clement-associates.com/services.html</loc>
     <lastmod>2025-08-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.9</priority>
   </url>
 
-  <!-- Team Page -->
+  <!-- Industries Page -->
   <url>
-    <loc>https://clement-associates.com/team</loc>
+    <loc>https://www.clement-associates.com/industries.html</loc>
     <lastmod>2025-08-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <!-- Portfolio/Work Page -->
-  <url>
-    <loc>https://clement-associates.com/portfolio</loc>
-    <lastmod>2025-08-05</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
-  <!-- Blog/News Page (if exists) -->
+  <!-- Contact Page -->
   <url>
-    <loc>https://clement-associates.com/blog</loc>
+    <loc>https://www.clement-associates.com/contact-us.php</loc>
     <lastmod>2025-08-05</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-
-  <!-- Add more URLs as needed -->
-  <!-- 
-  <url>
-    <loc>https://clement-associates.com/your-page</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  -->
 
 </urlset>

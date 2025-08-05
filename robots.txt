@@ -1,0 +1,33 @@
+# robots.txt for clement-associates.com
+# This file tells search engine crawlers which pages they can access
+
+User-agent: *
+Allow: /
+
+# Block access to sensitive directories (add as needed)
+# Disallow: /admin/
+# Disallow: /private/
+# Disallow: /_next/static/chunks/
+
+# XML Sitemap location
+Sitemap: https://clement-associates.com/sitemap.xml
+
+# Crawl-delay (optional - adjust based on server capacity)
+# Crawl-delay: 1
+
+# Block common bot spam (optional)
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: MJ12bot
+Crawl-delay: 10
+
+# Allow all major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
